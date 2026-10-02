@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Cart — Kora Streetwear</title>
+<meta name="description" content="Review your Kora cart and proceed to secure checkout.">
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#0b0b0c">
+<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="announce-bar">
+    <div class="announce-track">
+      <span>Free shipping on orders over ₦50,000</span>
+      <span>New drop — Obsidian Collection — live now</span>
+      <span>Boutique streetwear, made to last</span>
+      <span>Free shipping on orders over ₦50,000</span>
+      <span>New drop — Obsidian Collection — live now</span>
+      <span>Boutique streetwear, made to last</span>
+    </div>
+  </div>
+  <nav class="container nav-row" aria-label="Primary">
+    <a href="index.html" class="brand-mark" aria-label="Kora home">
+      <img src="assets/img/kora-logo.png" alt="Kora" width="42" height="42">
+      <span class="word">KORA</span>
+    </a>
+    <div class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop All</a>
+      <a href="shop.html?cat=men">Men</a>
+      <a href="shop.html?cat=women">Women</a>
+      <a href="shop.html?cat=kids">Kids</a>
+      <a href="about.html">Our Story</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <button class="icon-btn" data-search-toggle aria-label="Search" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      </button>
+      <a href="cart.html" class="icon-btn" aria-label="View cart" aria-current="page">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6h15l-1.5 9h-12z"/><path d="M6 6 5 2H2"/><circle cx="9" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg>
+        <span class="cart-count" data-cart-count data-empty="true">0</span>
+      </a>
+      <button class="nav-toggle" data-nav-toggle aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </nav>
+  <div class="search-panel" data-search-panel>
+    <form class="container" data-search-form role="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="search" name="q" placeholder="Search hoodies, jackets, drops…" aria-label="Search products">
+      <button type="submit" class="btn btn-outline">Search</button>
+    </form>
+  </div>
+</header>
+
+<div class="mobile-nav" data-mobile-nav>
+  <div class="mobile-nav-head">
+    <a href="index.html" class="brand-mark"><img src="assets/img/kora-logo.png" alt="Kora" width="36" height="36"><span class="word">KORA</span></a>
+    <button class="close-btn" data-nav-close aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 6-12 12M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="shop.html">Shop All</a></li>
+    <li><a href="shop.html?cat=men">Men</a></li>
+    <li><a href="shop.html?cat=women">Women</a></li>
+    <li><a href="shop.html?cat=kids">Kids</a></li>
+    <li><a href="about.html">Our Story</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+<main id="main">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="container"><a href="index.html">Home</a><span class="sep">/</span><span class="current">Cart</span></div>
+  </nav>
+
+  <div class="page-hero" style="text-align:left;padding-bottom:0;">
+    <div class="container">
+      <span class="eyebrow">Step 1 of 2</span>
+      <h1 class="display-2" style="margin-top:0.6rem;">Your Cart</h1>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div data-cart-has-items>
+        <div class="cart-layout">
+          <div>
+            <div class="cart-lines" data-cart-lines></div>
+          </div>
+          <aside class="summary-card">
+            <h3 class="display-3" style="font-size:1.2rem;margin-bottom:1.3rem;">Order Summary</h3>
+            <div class="summary-row"><span>Subtotal</span><span data-summary-subtotal>₦0</span></div>
+            <div class="summary-row"><span>Shipping</span><span data-summary-shipping>Calculated at checkout</span></div>
+            <div class="promo-row">
+              <input type="text" placeholder="Promo code" aria-label="Promo code" data-promo-input>
+              <button class="btn btn-outline" data-promo-apply>Apply</button>
+            </div>
+            <div class="summary-row total"><span>Estimated Total</span><span data-summary-total>₦0</span></div>
+            <button class="btn btn-gold btn-block btn-lg mt-lg" data-checkout>Proceed to Checkout</button>
+            <p class="form-note center" style="margin-top:1rem;">🔒 Secure, encrypted checkout</p>
+          </aside>
+        </div>
+      </div>
+
+      <div class="cart-empty" data-cart-empty style="display:none;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6h15l-1.5 9h-12z"/><path d="M6 6 5 2H2"/><circle cx="9" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg>
+        <h2 class="display-3">Your cart is empty</h2>
+        <p class="lede center" style="margin-inline:auto;margin-top:0.8rem;">Looks like you haven't added anything yet — the current drop is waiting.</p>
+        <a href="shop.html" class="btn btn-gold btn-lg mt-lg">Shop the Drop</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand-mark"><img src="assets/img/kora-logo.png" alt="Kora" width="40" height="40"><span class="word">KORA</span></a>
+        <p>Boutique streetwear for men, women and kids — designed in small, numbered drops built to outlast the trend cycle.</p>
+        <div class="social-row">
+          <a href="https://instagram.com" aria-label="Kora on Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="https://tiktok.com" aria-label="Kora on TikTok" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M16 3v10.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M16 3c0 2.5 2 4.5 4.5 4.5"/></svg></a>
+          <a href="https://twitter.com" aria-label="Kora on X" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m4 4 16 16M20 4 4 20"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="shop.html?cat=men">Men</a></li>
+          <li><a href="shop.html?cat=women">Women</a></li>
+          <li><a href="shop.html?cat=kids">Kids</a></li>
+          <li><a href="shop.html?cat=accessories">Accessories</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="shipping-returns.html">Shipping &amp; Returns</a></li>
+          <li><a href="cart.html">My Cart</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-of-service.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Kora Streetwear. All rights reserved.</span>
+      <span class="legal-links"><a href="privacy-policy.html">Privacy</a><a href="terms-of-service.html">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/main.js"></script>
+<script>
+  let promoApplied = false;
+
+  function lineHTML(line) {
+    const p = line.product;
+    return `
+    <div class="cart-line" data-line-key="${line.key}">
+      <img src="${p.images[0]}" alt="${p.name}" width="96" height="120">
+      <div>
+        <div class="name">${p.name}</div>
+        <div class="opts">${line.color} · Size ${line.size}</div>
+        <div class="qty-control" style="margin-top:0.8rem;width:fit-content;">
+          <button type="button" data-qty-minus aria-label="Decrease quantity">−</button>
+          <span>${line.qty}</span>
+          <button type="button" data-qty-plus aria-label="Increase quantity">+</button>
+        </div>
+        <button type="button" class="remove" data-remove>Remove</button>
+      </div>
+      <div class="price">${koraFormatPrice(p.price * line.qty)}</div>
+    </div>`;
+  }
+
+  function render() {
+    const lines = KoraCart.lineItems();
+    const hasItems = document.querySelector("[data-cart-has-items]");
+    const empty = document.querySelector("[data-cart-empty]");
+    hasItems.style.display = lines.length ? "block" : "none";
+    empty.style.display = lines.length ? "none" : "block";
+    if (!lines.length) return;
+
+    document.querySelector("[data-cart-lines]").innerHTML = lines.map(lineHTML).join("");
+
+    const subtotal = KoraCart.subtotal();
+    const discount = promoApplied ? Math.round(subtotal * 0.1) : 0;
+    const total = subtotal - discount;
+
+    document.querySelector("[data-summary-subtotal]").textContent = koraFormatPrice(subtotal);
+    document.querySelector("[data-summary-total]").textContent = koraFormatPrice(total);
+
+    document.querySelectorAll("[data-remove]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const key = btn.closest("[data-line-key]").dataset.lineKey;
+        KoraCart.remove(key);
+        render();
+      });
+    });
+    document.querySelectorAll("[data-line-key]").forEach((lineEl) => {
+      const key = lineEl.dataset.lineKey;
+      const line = lines.find((l) => l.key === key);
+      lineEl.querySelector("[data-qty-minus]").addEventListener("click", () => {
+        KoraCart.updateQty(key, line.qty - 1);
+        render();
+      });
+      lineEl.querySelector("[data-qty-plus]").addEventListener("click", () => {
+        KoraCart.updateQty(key, line.qty + 1);
+        render();
+      });
+    });
+  }
+
+  document.querySelector("[data-promo-apply]").addEventListener("click", () => {
+    const input = document.querySelector("[data-promo-input]");
+    if (input.value.trim().toUpperCase() === "KORA10") {
+      promoApplied = true;
+      koraToast("Promo applied — 10% off");
+    } else {
+      koraToast("That code isn't valid");
+    }
+    render();
+  });
+
+  document.querySelector("[data-checkout]").addEventListener("click", () => {
+    koraToast("Checkout is a demo in this build — connect a payment provider to go live.");
+  });
+
+  render();
+</script>
+</body>
+</html>
